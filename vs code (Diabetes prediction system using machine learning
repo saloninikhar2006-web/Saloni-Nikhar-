@@ -1,0 +1,143 @@
+Name: Saloni Avinash Nikhar
+Roll No.: EL-111
+Title: Diabetes Prediction System Using Machine Learning
+Domain: Healthcare Analytics
+Objective:
+To predict whether a patient has diabetes based on input parameters like:
+Glucose Level
+Blood Pressure
+BMI
+Age
+Insulin
+
+📁 Project Structure
+Diabetes-Prediction-System/
+│
+├── index.html
+├── login.html
+├── dashboard.html
+├── prediction.html
+├── result.html
+├── css/
+│     └── style.css
+🖥️ 1️⃣ index.html (Home Page)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Diabetes Prediction System</h1>
+        <nav>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <h2>Early Detection Saves Lives</h2>
+        <p>Predict diabetes risk using Machine Learning.</p>
+    </section>
+</body>
+</html>
+🔐 2️⃣ login.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Doctor Login</h2>
+        <form action="dashboard.html">
+            <input type="email" placeholder="Enter Email" required>
+            <input type="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+📊 3️⃣ dashboard.html (Patient Form)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Data Entry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Enter Patient Details</h1>
+    </header>
+
+    <section class="form-section">
+        <form action="result.html">
+            <input type="number" placeholder="Glucose Level" required>
+            <input type="number" placeholder="Blood Pressure" required>
+            <input type="number" placeholder="BMI" required>
+            <input type="number" placeholder="Age" required>
+            <button type="submit">Predict</button>
+        </form>
+    </section>
+</body>
+</html>
+📈 4️⃣ result.html (Prediction Result Page)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Prediction Result</h1>
+    </header>
+
+    <section class="result">
+        <h2>Risk Level: High</h2>
+        <p>The patient has a high probability of diabetes.</p>
+        <a href="dashboard.html">Check Another Patient</a>
+    </section>
+</body>
+</html>
+🎨 css/style.css
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eef2f3;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.home, .form-section, .result {
+    text-align: center;
+    padding: 40px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
