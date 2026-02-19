@@ -15,5 +15,8 @@ Technologies used:
 2.CSS
 3.Visual Studio Code
 
+Name : Saloni Nikhar
+Roll No.: EL-111
 Domain: Healthcare Analytics
+Title : Diabetes prediction system using machine learning
 
