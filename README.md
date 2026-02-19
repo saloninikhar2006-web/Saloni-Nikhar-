@@ -10,13 +10,17 @@ Core methods: Logistic regression, decision trees, SVM, neural networks
 Applications: Early screening, clinical decision support, patient risk profiling
 
 Publication type: Research paper–based academic compilation
+
 Technologies used:
 1.HTML
 2.CSS
 3.Visual Studio Code
 
 Name : Saloni Nikhar
+
 Roll No.: EL-111
+
 Domain: Healthcare Analytics
+
 Title : Diabetes prediction system using machine learning
 
