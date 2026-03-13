@@ -1,20 +1,18 @@
-Diabetes Prediction System Using Machine Learning is a research-oriented book and academic reference focusing on the use of machine learning algorithms for early detection and risk assessment of diabetes. It examines how computational models can assist healthcare professionals in diagnosis, prevention, and patient management through data-driven insights.
+The research paper “Predicting Diabetes Using Supervised Machine Learning Algorithms on E-Health Records” focuses on predicting whether a person has diabetes using machine learning techniques. The study uses electronic health record data containing information such as age, gender, BMI, hypertension, heart disease, smoking history, HbA1c level, and blood glucose level to analyze diabetes risk. The main aim is to help in early detection of diabetes so that proper medical treatment can start sooner.
 
-Key facts
-Field: Healthcare informatics and machine learning
+Implementation Overview :
 
-Primary focus: Predictive modeling for diabetes diagnosis
+In the implementation, the dataset of 100,000 patient records is cleaned and divided into 70% training data and 30% testing data. Three supervised machine learning algorithms are applied:
 
-Core methods: Logistic regression, decision trees, SVM, neural networks
+Logistic Regression
 
-Applications: Early screening, clinical decision support, patient risk profiling
+Random Forest
 
-Publication type: Research paper–based academic compilation
+K-Nearest Neighbors (KNN)
 
-Technologies used:
-1.HTML
-2.CSS
-3.Visual Studio Code
+The models are evaluated using accuracy, sensitivity, and specificity. Among these algorithms, KNN performs the best with about 96% accuracy, making it the most effective model for predicting diabetes in this study.
+
+STUDENT INFORMATION :
 
 Name : Saloni Nikhar
 
