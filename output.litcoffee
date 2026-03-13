@@ -1,0 +1,9 @@
+✅ In the web implementation, these outputs can be shown as:
+
+Charts (Age distribution, Gender distribution)
+
+Tables (Model accuracy results)
+
+Graphs (Correlation plot)
+
+Result page showing diabetes prediction output.
